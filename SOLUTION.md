@@ -1,5 +1,5 @@
-# Explanation of first Assesed exercise "Messaging system"
-Link to the code: https://git.cs.bham.ac.uk/gxs746/sww-assessed-1.git
+# Explanation of "Messaging system"
+
 #### Registration functionality (user input = 'register')
 
 Client.java asks for a username and password. Then the Server creates a new ```Authentication``` thread that is responsible for user login and registration. A new thread for authentication is used to enable simultaneous logins / registrations by many users.
